@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicebus", "servicebus\servicebus.csproj", "{616E490B-D0ED-41B2-9300-A4D307BF7FD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicebus.sender", "servicebus.sender\servicebus.sender.csproj", "{616E490B-D0ED-41B2-9300-A4D307BF7FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicebus.reciever", "servicebus.reciever\servicebus.reciever.csproj", "{CB438B3B-F8E2-4B5F-AD44-E9434A7B14ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "servicebus.reciever", "servicebus.reciever\servicebus.reciever.csproj", "{CB438B3B-F8E2-4B5F-AD44-E9434A7B14ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp", "ChatApp\ChatApp.csproj", "{45D51FDB-FFCE-419C-9FC9-2BC93FE19E5C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCommonModels", "..\CommonModels\AzureCommonModels\AzureCommonModels.csproj", "{1F1035BB-ABC0-452A-BC6E-0E76CE8BC48E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApp", "ChatApp\ChatApp.csproj", "{45D51FDB-FFCE-419C-9FC9-2BC93FE19E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{45D51FDB-FFCE-419C-9FC9-2BC93FE19E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D51FDB-FFCE-419C-9FC9-2BC93FE19E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D51FDB-FFCE-419C-9FC9-2BC93FE19E5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F1035BB-ABC0-452A-BC6E-0E76CE8BC48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F1035BB-ABC0-452A-BC6E-0E76CE8BC48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F1035BB-ABC0-452A-BC6E-0E76CE8BC48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F1035BB-ABC0-452A-BC6E-0E76CE8BC48E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
